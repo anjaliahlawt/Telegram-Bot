@@ -25,7 +25,7 @@ const binarysearch =function search(arr,x){
 try{
 bot.start((ctx) => ctx.reply('Welcome to taliyan\'s anjali bot'));// /start
 bot.command('binarysearch',(ctx)=>ctx.reply(binarysearchstring));// /binarysearch
-bot.on('sticker', (ctx) => ctx.reply('👍'));// /sticker
+bot.on('sticker', (ctx) => ctx.reply('👍Done'));// /sticker
 bot.command('linuxtopcommands',(ctx)=>ctx.reply("ls cd pwd rm"));
 bot.on('text',(ctx) => {
     console.log(ctx.update.message);
